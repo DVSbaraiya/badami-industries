@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/*============================================================
+ # Template Name: Interar - Interior & Architecture HTML Template
+ # Template URI: https://webextheme.com/html/insuren-html/
+ # Description: Interior & Architecture HTML Template
+ # Author: WebexTheme
+ # Author URI: https://themeforest.net/user/webextheme
+ # Version: 1.0
+/*============================================================
+
+============================================
+------------ [CSS_INDEXING_START] ----------
+============================================
+## [_Google_Fonts]
+## [_Imported_CSS_Plugins]
+## [_Reset_Styles]
+## [_Typography]
+## [_Global]
+## [_Header]
+## [_Footer]
+## [_widget]
+## [_Colors]
+## [_Home_Slider]
+## [_Page_Title]
+
+## [_Accordion]
+## [_Faqs]
+## [_Clients]
+## [_Skills]
+## [_Buttons]
+## [_Form]
+## [_Section_Title]
+## [_Title_Lines]
+## [_Features]
+## [_Featured_Icon_Box]
+## [_Icon_Box]
+## [_Info_Box]
+## [_Why_Choose_Us]
+## [_Pricing_Tables]
+## [_Funfact]
+## [_Social_List]
+## [_Working_Process]
+## [_Scroll_To_Top]
+## [_Call_To_Action]
+## [_Object_Animaiton]
+## [_Custom_Effects]
+## [_Video_Popup]
+
+## [_Section_About]
+## [_Section_Service]
+## [_Section_Single_Service]
+## [_Section_Project]
+## [_Section_Single_Project]
+## [_Section_Portfolio]
+## [_Section_News]
+## [_Section_Single_News]
+## [_Section_Team]
+## [_Section_Single_Team]
+## [_Section_Testimonials]
+## [_Section_Case_Study]
+## [_Divider]
+## [_Utility]
+===========================================
+---------- [CSS_INDEXING_END] -------------
+===========================================
+*/
+/*========================================*/
+/*----------- [_Google_Fonts] ------------*/
+/*========================================*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800;900&amp;family=Rubik:wght@400;500;600;800;900&amp;family=Allison&amp;display=swap");
+/*========================================*/
+/*-------- [_Imported_CSS_Plugins] -------*/
+/*========================================*/
+@import url("bootstrap.min.css");
+@import url("../fonts/fontawesome/css/all.css");
+@import url("../fonts/webexbaseicon/style.css");
+@import url("../fonts/webexthemeicon/style.css");
+@import url("nice-select.css");
+@import url("twentytwenty.css");
+@import url("owl.carousel.min.css");
+@import url("magnific-popup.css");
+@import url("animate.css");
+@import url("custom-animation.css");
+@import url("kursor.css");
+:root {
+  --primary-color: #ed7845;
+  --primary-color-rgb: 185, 142, 117;
+  --primary-color2: #111;
+  --primary-color2-rgb: 17, 17, 17;
+  --primary-color3: #33d687;
+  --primary-color3-rgb: 51, 214, 135;
+  --primary-color4: #fab758;
+  --primary-color4-rgb: 250, 183, 88;
+  --secondary-color: #252531;
+  --secondary-color-rgb: 37, 37, 49;
+  --secondary-color2: #353666;
+  --secondary-color2-rgb: 37, 37, 49;
+  --text-white: #ffffff;
+  --text-black: #000;
+  --text-gray: #8b827d;
+  --text-blue: #447bde;
+  --text-light-gray: #a7a8b4;
+  --text-silver: #eae4e4;
+  --text-gray-light: #cccccc;
+  --text-dark-light: #808093;
+  --bg-white: #ffffff;
+  --bg-black: #000;
+  --bg-light-pink: #faf3f3;
+  --bg-silver: #fbf6f3;
+  --bg-silver-light: #f8f4f3;
+  --bg-silver-light2: #f0f1f7;
+  --bg-silver-deep: #ecdaee;
+  --bg-gray: #f7f7f7;
+  --bg-dark-color: #0b0c26;
+  --bg-blue-color: #571bcd;
+  --border-color: #eee;
+  --bg-gradient-color: linear-gradient(45deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  --bg-gradient-reverse-color: linear-gradient(45deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  --heading-font: "Figtre", sans-serif;
+  --body-font: "Rubik", sans-serif;
+  --secondary-font1: "Allison", cursive;
+  --heading-font-color: #2d3941;
+  --h1-h2-font-weight: 800;
+  --h3-h4-font-weight: 700;
+  --h5-h6-font-weight: 600;
+  --body-font-color: #555;
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --body-font-line-height: 1.8rem;
+  --header1-nav-color: var(--heading-font-color);
+  --header1-nav-hover-color: var(--primary-color);
+  --header1-nav-font-family: var(--body-font);
+  --header1-nav-font-size: 16px;
+  --header1-nav-font-weight: 600;
+  --header1-nav-child-color: var(--heading-font-color);
+  --header1-nav-child-hover-color: var(--text-white);
+  --header1-nav-child-font-size: 15px;
+  --header1-nav--child-font-weight: 500;
+  --header2-nav-color: var(--text-white);
+  --header2-nav-hover-color: var(--primary-color);
+  --header1-nav-font-family: var(--body-font);
+  --header2-nav-font-size: 16px;
+  --header2-nav-font-weight: 600;
+  --header2-nav-child-color: var(--heading-font-color);
+  --header2-nav-child-hover-color: var(--text-white);
+  --header2-nav-child-font-size: 15px;
+  --header2-nav--child-font-weight: 500;
+  --box-shadow: 6px 6px 25px 0px rgba(0, 0, 0, 0.08);
+  --text-categories: #b5b5b5;
+  --footer-text-color: #bbb7c2;
+}
+
+/*========================================*/
+/*------------ [_Reset_Styles] -----------*/
+/*========================================*/
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none !important;
+}
+
+::-moz-selection {
+  background: var(--primary-color);
+  color: var(--text-white);
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  background-color: #ccc;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--text-white);
+  text-shadow: none;
+}
+
+/*========================================*/
+/*--------------- [_Utility] -------------*/
+/*========================================*/
+
+/*========================================*/
+/*--------------- [_Global] --------------*/
+/*========================================*/
+
+/* Preloader */
+
+/* Spinner cargando */
+
+/* Texto cargando */
+
+/* Efecto de fade en la animación de cargando */
+
+/* Efecto de cortina */
+
+/* Animación del preloader */
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+/* Animación de las letras cargando del preloader */
+@keyframes letters-loading {
+  0%,
+	75%,
+	100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  25%,
+	50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+/* Tamaño de portatil hacia atras (portatil, tablet, celular) */
+@media screen and (max-width: 767px) {
+  /* Preloader */
+  /* Spinner cargando */
+
+  /* Texto cargando */
+}
+@media screen and (max-width: 500px) {
+  /* Prelaoder */
+  /* Spinner cargando */
+
+  /* Texto cargando */
+}
+
+/*Owl Carousel Nav Prev*/
+
+/*========================================*/
+/*--------------- [_Header] --------------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Mobile_Nav] ------------*/
+/*========================================*/
+
+/*========================================*/
+/*-------------- [_Footer] ---------------*/
+/*========================================*/
+
+/*========================================*/
+/*---------------- [_widget] -------------*/
+/*========================================*/
+/*Widget Search*/
+
+/*========================================*/
+/*-------------- [_Colors] ---------------*/
+/*========================================*/
+/*========== Background Colors ==========*/
+
+/*========== Text Color ==========*/
+
+/*========== Border Theme Color ==========*/
+
+/*========================================*/
+/*------------- [_Home_Slider] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*-------------- [_Page_Title] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*-------------- [_Accordion] ------------*/
+/*========================================*/
+
+/*========================================*/
+/*----------------- [_Faqs] --------------*/
+/*========================================*/
+
+/*========================================*/
+/*--------------- [_Clients] -------------*/
+/*========================================*/
+
+/*========================================*/
+/*--------------- [_Skills] --------------*/
+/*========================================*/
+
+/*========================================*/
+/*--------------- [_Buttons] -------------*/
+/*========================================*/
+/*Btn Style One*/
+
+/*========================================*/
+/*-------------- [_Form] -----------------*/
+/*========================================*/
+
+/*========================================*/
+/*----------- [_Section_Title] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Title_Lines] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Features] --------------*/
+/*========================================*/
+
+/*========================================*/
+/*--------- [_Featured_Icon_Box] ---------*/
+/*========================================*/
+
+/*========================================*/
+/*---------------- [_Icon_Box] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*--------------- [_Info_Box] ------------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Why_Choose_Us] ---------*/
+/*========================================*/
+
+/*=================================================*/
+/*-------------- [Pricing_Tables] -----------------*/
+/*=================================================*/
+
+/*========================================*/
+/*-------------- [_Funfact] --------------*/
+/*========================================*/
+
+/*========================================*/
+/*----------- [_Social_List] -------------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Working_Process] ----------*/
+/*========================================*/
+
+/*========================================*/
+/*----------- [_Scroll_To_Top] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Call_To_Action] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Object_Animaiton] ---------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Custom_Effects] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Video_Popup] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Section_About] ------------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Section_Service] ----------*/
+/*========================================*/
+
+/*========================================*/
+/*------ [_Section_Single_Service] -------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Section_Project] ----------*/
+/*========================================*/
+
+/*========================================*/
+/*----------- [_Section_Projects] --------*/
+/*========================================*/
+
+/*=================================================*/
+/*---------- [_Section_Single_Project] ------------*/
+/*=================================================*/
+
+/*========================================*/
+/*------------ [_Section_News] -----------*/
+/*========================================*/
+
+/*========================================*/
+/*-------- [_Section_Single_News] --------*/
+/*========================================*/
+
+/*========================================*/
+/*---------- [_Section_Team] -------------*/
+/*========================================*/
+
+/*========================================*/
+/*------- [_Section_Single_Team] ---------*/
+/*========================================*/
+/*========================================*/
+/*-------- [_Section_testimonials] -------*/
+/*========================================*/
+
+/*========================================*/
+/*--------- [_Section_Case_Study] --------*/
+/*========================================*/
+
+/*========================================*/
+/*------------- [_Divider] ---------------*/
+/*========================================*/
+
+/*========================================*/
+/*-------------- [_Typography] -----------*/
+/*========================================*/
+/*Google Font Classes */
+
+/*Margin Top */
+
+/*Margin Right */
+
+/*Margin Bottom */
+
+/*Margin Left */
+
+/*Padding Top */
+
+/*Padding Right */
+
+/*Padding Bottom */
+
+/*Padding Left */
+
+/*Font Weight */
+/*Data Overlay */

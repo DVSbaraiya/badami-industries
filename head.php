@@ -92,11 +92,11 @@ At Rajula Dist Amreli State Gujarat
 <a href="#">Certificate</a>
 <ul>
 
-<li><a href="Otabu-Certificate.pdf">Otabu Certificate</a></li>
-<li><a href="Export-import-Certificate.pdf">Export import Certificate</a></li>
-<li><a href="Trademark-Certificate.pdf">Trademark Certificate</a></li>
-<li><a href="MSME.pdf">MSME</a></li>
-<li><a href="Trustseal-Certificate.pdf">Trustseal Certificate</a></li>
+<li><a href="/pdf/Otabu-Certificate.pdf">Otabu Certificate</a></li>
+<li><a href="/pdf/Export-import-Certificate.pdf">Export import Certificate</a></li>
+<li><a href="/pdf/Trademark-Certificate.pdf">Trademark Certificate</a></li>
+<li><a href="/pdf/MSME.pdf">MSME</a></li>
+<li><a href="/pdf/Trustseal-Certificate.pdf">Trustseal Certificate</a></li>
 </ul>
 </li>
 <li><a href="contact-us.php">Contact Us</a></li>

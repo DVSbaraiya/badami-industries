@@ -5,18 +5,22 @@
 <meta charset="UTF-8" />
 <meta name="author" content="Interar" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>Badami Industries || Home</title>
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
-<!-- Main Stylesheet -->
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/responsive.css"/>
 <meta name="google-site-verification" content="xoX5Y_AL22dAxUwlItnxbvpWjyqcS7nBK9J-CkFG9EA" />
 
+<title>Badami Industries || Home</title>
+<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+
+<!-- Main Stylesheet -->
+<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async=""></script>
+<link rel="preload" href="images/bg/15.webp" as="image" type="image/webp" />
+<link rel="preload" href="css/style.css" as="style" />
+
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css"/>
 </head>
 
 <body>
-<!-- Preloader Start -->
+<!-- Preloader Start -->    
 <section>
 <div id="preloader">
 <div id="ctn-preloader" class="ctn-preloader">
@@ -51,53 +55,7 @@
 </div>
 <div class="col-xl-4 col-lg-12 col-md-12 content-column">
 <div class="content-box">
-<img class="img-full" src="images/service/img-1.webp" alt="" />
-
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div class="slide-item">
-<div class="image-layer" data-background="images/bg/15.webp"></div>
-<div class="auto-container">
-<div class="row clearfix">
-<div class="col-xl-7 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<h1 class="home-carousel-title"> <span class="text-obj1">Badami Industries</span></h1>
-<p class="home-carousel-text">We direct all our activities to cater the expectations of customers by providing them excellent quality products as per their gratification.</p>
-<div class="btn-box">
-<a href="contact-us.php" class="animate-btn-style3">Get Quote</a>
-</div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<img class="img-full" src="images/service/img-1.webp" alt="" />
-
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<div class="slide-item">
-<div class="image-layer" data-background="images/bg/15.webp"></div>
-<div class="auto-container">
-<div class="row clearfix">
-<div class="col-xl-7 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<h1 class="home-carousel-title"> <span class="text-obj1">Badami Industries</span></h1>
-<p class="home-carousel-text">We direct all our activities to cater the expectations of customers by providing them excellent quality products as per their gratification.</p>
-<div class="btn-box">
-<a href="contact-us.php" class="animate-btn-style3">Get Quote</a>
-</div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<img class="img-full" src="images/service/img-1.webp" alt="" />
+<img class="img-full lazy" src="images/service/img-1.webp" alt="" />
 
 </div>
 </div>
@@ -128,7 +86,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_01.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_01.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="oil-expeller.php">Oil Expeller</a></h4>
 <h6 class="service-categories">Efficient oil extraction with robust, reliable, and durable Oil Expellers.</h6>
@@ -141,7 +99,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_02.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_02.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="rotary-ghani.php">Rotary Ghani</a></h4>
 <h6 class="service-categories">Traditional Rotary Ghani machines ensure pure, cold-pressed oil extraction.</h6>
@@ -154,7 +112,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_03.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_03.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="pulveriser.php">Pulverizer </a></h4>
 <h6 class="service-categories">High-performance Pulverizer Machines for efficient, fine grinding of various materials.</h6>
@@ -168,7 +126,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_04.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_04.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="multipurpose.php">Multipurpose </a></h4>
 <h6 class="service-categories">Premium Wooden Press machines for natural, cold-pressed oil extraction.</h6>
@@ -181,7 +139,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_05.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_05.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="mixer-machine.php">Mixer Machine </a></h4>
 <h6 class="service-categories">Efficient Mixer Machines for uniform blending of materials, ensuring consistency.</h6>
@@ -194,7 +152,7 @@
 <div class="col-md-6 col-lg-6 col-xl-4">
 <div class="service-style2">
 <div class="service-item-thumb">
-<img class="img-full" src="images/service/service_06.webp" alt="" />
+<img class="img-full lazy" src="images/service/service_06.webp" alt="" />
 <div class="service-item-content">
 <h4 class="service-title"><a href="oil-filter.php">Oil Filter </a></h4>
 <h6 class="service-categories">Advanced Oil Filter machines for superior purification, ensuring clean, high-quality .</h6>
@@ -216,10 +174,10 @@
 <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
 <div class="about-image-box-style1 about-side-line mrr-60 mrr-lg-0">
 <figure class="about-image1 js-tilt d-none d-md-block d-lg-block d-xl-block">
-<img class="img-full" src="images/about/about-sm1.webp.jpg" alt="" />
+<img class="img-full lazy" src="images/about/about-sm1.webp.jpg" alt="" />
 </figure>
 <figure class="about-image2">
-<img class="img-full" src="images/about/about-lg1.webp" alt="" />
+<img class="img-full lazy" src="images/about/about-lg1.webp" alt="" />
 </figure>
 </div>
 </div>
@@ -317,7 +275,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="col-md-12 col-lg-10 col-xl-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="800ms">
 <div class="shine-effect">
-<img class="img-full" src="images/about/divider-img1.webp.jpg" alt="" />
+<img class="img-full lazy" src="images/about/divider-img1.webp.jpg" alt="" />
 </div>
 </div>
 </div>
@@ -400,7 +358,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 <div class="owl-carousel projects_4col">
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_01.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_01.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
@@ -409,7 +367,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_02.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_02.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
@@ -418,7 +376,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_03.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_03.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
@@ -427,7 +385,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_04.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_04.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
@@ -436,7 +394,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_05.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_05.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
@@ -445,7 +403,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="project-item-style1">
 <div class="project-item-thumb">
-<img class="img-full" src="images/projects/project_06.webp" alt="" />
+<img class="img-full lazy" src="images/projects/project_06.webp" alt="" />
 <div class="project-item-link-icon">
 <a href="page-project-details.html"><i class="base-icon-next"></i></a>
 </div>
