@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="author" content="Interar" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<title>Rotary Ghani</title>
+<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+<!-- Preloader Start -->
+<section>
+<div id="preloader">
+<div id="ctn-preloader" class="ctn-preloader">
+<div class="animation-preloader">
+<div class="spinner"></div>
+
+</div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+</div>
+</div>
+</section>
+<!-- Preloader End -->
+<!-- Header Area Start -->
+<?php include "head.php" ?>
+<!-- Header Area End -->
+<!-- Page Title Start -->
+<section class="page-title-section">
+<div class="container">
+<div class="row">
+<div class="col-xl-12">
+<div class="breadcrumb-area">
+<h2 class="page-title">Rotary Ghani</h2>
+<ul class="breadcrumbs-link">
+<li><a href="index.php">Home</a></li>
+<li class="active">Rotary Ghani</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Page Title End -->
+<!-- News Section Start -->
+<section class="bg-pos-ct pdt-105">
+<div class="section-content mrb-80">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images//s9.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="silent-rotary-ghani-hp-75.php">Silent Rotary Ghani HP 7.5</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs...</p>
+
+<a href="silent-rotary-ghani-hp-75.php" class="colr" >View Detail</a>
+
+</div>
+</div>
+</div>
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images/s10.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="cold-press-layland-rotary-ghani.php">Cold Press Layland Rotary Ghani</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs...</p>
+<a href="cold-press-layland-rotary-ghani.php" class="colr" >View Detail</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images/s11.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="cold-press-protable-mini.php">Cold Press Protable Mini</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs...</p>
+<a href="cold-press-protable-mini.php" class="colr" >View Detail</a>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images/s12.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="cold-press-ms-box-ghani.php">Cold Press MS Box Ghani</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs..</p>
+<a href="cold-press-ms-box-ghani.php" class="colr" >View Detail</a>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images/s13.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="wooden-cold-press-oil-extraction-machine.php">Wooden Cold Press Oil Extraction Machine</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs..</p>
+<a href="wooden-cold-press-oil-extraction-machine.php" class="colr" >View Detail</a>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-6 col-lg-6 col-xl-4">
+<div class="news-wrapper mrb-30">
+<div class="news-thumb">
+<img src="images/s14.webp" class="img-full" alt="blog" />
+
+</div>
+<div class="news-description">
+<h4 class="the-title"><a href="cold-press-compact-rotary-ghani.php">Cold Press Compact Rotary Ghani</a></h4>
+<p class="the-content">we ensure our products meet stringent standards for efficiency and reliability. Trust Badami Industries for your industrial needs..</p>
+<a href="cold-press-compact-rotary-ghani.php" class="colr" >View Detail</a>
+
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+<!-- Call to Action Start -->
+
+<!-- Call to Action End -->
+</section>
+<!-- News Section End -->
+<!-- Footer Area Start -->
+<?php include "footer.php" ?>
+<!-- Mobile Nav Sidebar Content End -->
+<!-- Header Search Popup Start -->
+<div class="search-popup">
+<div class="search-popup-overlay search-toggler"></div>
+<div class="search-popup-content">
+<form action="#">
+<label for="search" class="sr-only">search here</label>
+<input type="text" id="search" placeholder="Search Here..." />
+<button type="submit" aria-label="search submit" class="thm-btn">
+<i class="base-icon-search-1"></i>
+</button>
+</form>
+</div>
+</div>
+<!-- Header Search Popup End -->
+<!-- Back to Top Start -->
+<div class="anim-scroll-to-top">
+<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+</svg>
+</div>
+<!-- Back to Top end -->
+<!-- Integrated important scripts here -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.appear.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.event.move.js"></script>
+<script src="js/jquery.twentytwenty.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<script src="js/magnific-popup.min.js"></script>
+<script src="js/backtotop.js"></script>
+<script src="js/trigger.js"></script>
+</body>
+
+</html>
