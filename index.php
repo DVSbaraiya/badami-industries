@@ -36,6 +36,7 @@
 <!-- Preloader End -->
 <!-- Header Area Start -->
 <?php include "head.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
 <!-- Header Area End -->
 <!-- Home Slider Start -->
 <section class="home_banner_02">
@@ -549,6 +550,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/backtotop.js"></script>
 <script src="js/trigger.js"></script>
+<script src="js/whatsapp.js"></script>
 </body>
 
 </html>

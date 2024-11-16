@@ -25,6 +25,8 @@
 <!-- Preloader End -->
 <!-- Header Area Start -->
 <?php include "head.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
 <!-- Header Area End -->
 <!-- Page Title Start -->
 <section class="page-title-section">
@@ -109,6 +111,8 @@ We are engaged in offering product to our clients. Our range of this products is
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/backtotop.js"></script>
 <script src="js/trigger.js"></script>
+<script src="js/whatsapp.js"></script>
+
 </body>
 
 </html>

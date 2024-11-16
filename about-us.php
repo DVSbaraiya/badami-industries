@@ -22,6 +22,7 @@
 <!-- Preloader End -->
 <!-- Header Area Start -->
 <?php include "head.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
 <!-- Header Area End -->
 <!-- Page Title Start -->
 <section class="page-title-section">
@@ -168,6 +169,7 @@
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/backtotop.js"></script>
 <script src="js/trigger.js"></script>
+<script src="js/whatsapp.js"></script>
 </body>
 
 </html>

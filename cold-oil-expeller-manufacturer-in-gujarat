@@ -52,6 +52,7 @@
     <!-- Preloader End -->
     <!-- Header Area Start -->
     <?php include "head.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
     <!-- Header Area End -->
     <!-- Page Title Start -->
     <section class="page-title-section">

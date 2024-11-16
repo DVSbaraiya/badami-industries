@@ -21,6 +21,7 @@
     <!-- Preloader End -->
     <!-- Header Area Start -->
  <?php include "head.php" ?>
+<?php include "pages/layout/floatingWhatsappBtn.php" ?>
     <!-- Header Area End -->
     <!-- Page Title Start -->
     <section class="page-title-section">
@@ -140,6 +141,7 @@
     <script src="js/magnific-popup.min.js"></script>
     <script src="js/backtotop.js"></script>
     <script src="js/trigger.js"></script>
+<script src="js/whatsapp.js"></script>
   </body>
 
 <!-- Mirrored from webextheme.com/html/interar/v2/page-services-style-02.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Jun 2024 05:35:56 GMT -->
