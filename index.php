@@ -8,7 +8,7 @@
 <meta name="google-site-verification" content="xoX5Y_AL22dAxUwlItnxbvpWjyqcS7nBK9J-CkFG9EA" />
 
 <title>Badami Industries || Home</title>
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/png" />
 
 <!-- Main Stylesheet -->
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async=""></script>
@@ -16,7 +16,7 @@
 <link rel="preload" href="css/style.css" as="style" />
 
 <link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/responsive.css"/>
+<link rel="stylesheet" href="css/responsive.css" defer />
 </head>
 
 <body>
@@ -42,7 +42,8 @@
 <section class="home_banner_02">
 <div class="home-carousel owl-theme owl-carousel">
 <div class="slide-item">
-<div class="image-layer" data-background="images/bg/15.webp"></div>
+<div class="image-layer" style="background-image: url('images/bg/15.webp');"></div>
+
 <div class="auto-container">
 <div class="row clearfix">
 <div class="col-xl-7 col-lg-12 col-md-12 content-column">
@@ -439,7 +440,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 <div class="owl-carousel testmonial_3col testimonial-style2 text-left">
 <div class="testimonial-item">
 <div class="testimonial-thumb">
-<img src="images/testimonials/" alt="" />
+<!-- <img src="images/testimonials/" alt="" /> -->
 </div>
 <div class="testimonial-content">
 <p class="comments">Employee empowerment and recognition is the core of our culture and how we achieve outstanding customer service.</p>
@@ -448,7 +449,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="testimonial-item">
 <div class="testimonial-thumb">
-<img src="images/testimonials/" alt="" />
+<!-- <img src="images/testimonials/" alt="" /> -->
 </div>
 <div class="testimonial-content">
 <p class="comments">நல்லவராய் இருப்பது நல்லது தான் ஆனால் நல்லது கெட்டது | தெரியாத நல்லவராய் இருப்பது ஆபத்தானது.</p>
@@ -457,7 +458,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <div class="testimonial-item">
 <div class="testimonial-thumb">
-<img src="images/testimonials/" alt="" />
+<!-- <img src="images/testimonials/" alt="" /> -->
 </div>
 <div class="testimonial-content">
 <p class="comments">"La Raison parle, mais l'Amour chante." "Reason talks but Love sings."</p>
@@ -488,25 +489,65 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-md-6 col-lg-6 col-xl-4">
-<div class="service-style2">
-
-<iframe width="350" height="250" src="https://www.youtube.com/embed/5BMJw4Ur2BI?si=0fAb1HLtoC35ksGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-
+  <div class="service-style2">
+    <div class="youtube-placeholder" style="position: relative; width: 350px; height: 250px;">
+      <img
+        src="https://img.youtube.com/vi/5BMJw4Ur2BI/hqdefault.jpg"
+        alt="Video thumbnail"
+        style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"
+      />
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <button
+          onclick="loadYouTubeVideo(this, '5BMJw4Ur2BI')"
+          style="background: rgba(0, 0, 0, 0.7); color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;"
+        >
+          ▶ Play
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
+
 <div class="col-md-6 col-lg-6 col-xl-4">
-<div class="service-style2">
-
-<iframe width="350" height="250" src="https://www.youtube.com/embed/mmbpGK1dEC8?si=kFMNfoKIFJxPj7Wt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="service-style2">
+    <div class="youtube-placeholder" style="position: relative; width: 350px; height: 250px;">
+      <img
+        src="https://img.youtube.com/vi/mmbpGK1dEC8/hqdefault.jpg"
+        alt="Video thumbnail"
+        style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"
+      />
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <button
+          onclick="loadYouTubeVideo(this, 'mmbpGK1dEC8')"
+          style="background: rgba(0, 0, 0, 0.7); color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;"
+        >
+          ▶ Play
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 
-</div>
 <div class="col-md-6 col-lg-6 col-xl-4">
-<div class="service-style2">
-<iframe width="350" height="250" src="https://www.youtube.com/embed/yheKxczsp_M?si=FEic-nKYwmWfFjmn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>             
+  <div class="service-style2">
+    <div class="youtube-placeholder" style="position: relative; width: 350px; height: 250px;">
+      <img
+        src="https://img.youtube.com/vi/yheKxczsp_M/hqdefault.jpg"
+        alt="Video thumbnail"
+        style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"
+      />
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <button
+          onclick="loadYouTubeVideo(this, 'yheKxczsp_M')"
+          style="background: rgba(0, 0, 0, 0.7); color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;"
+        >
+          ▶ Play
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
-
-
 </div>
 </div>
 </section>
@@ -538,19 +579,37 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </div>
 <!-- Back to Top end -->
 <!-- Integrated important scripts here -->
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.appear.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.event.move.js"></script>
-<script src="js/jquery.twentytwenty.js"></script>
-<script src="js/tilt.jquery.min.js"></script>
-<script src="js/magnific-popup.min.js"></script>
-<script src="js/backtotop.js"></script>
-<script src="js/trigger.js"></script>
-<script src="js/whatsapp.js"></script>
+<script src="js/jquery-3.6.0.min.js" defer></script>
+<script src="js/jquery.nice-select.min.js" defer></script>
+<script src="js/bootstrap.min.js" defer></script>
+<script src="js/jquery.appear.min.js" defer></script>
+<script src="js/wow.min.js" defer></script>
+<script src="js/owl.carousel.min.js" defer></script>
+<script src="js/jquery.event.move.js" defer></script>
+<script src="js/jquery.twentytwenty.js" defer></script>
+<script src="js/tilt.jquery.min.js" defer></script>
+<script src="js/magnific-popup.min.js" defer></script>
+<script src="js/backtotop.js" defer></script>
+<script src="js/trigger.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+<script>
+function loadYouTubeVideo(button, videoId) {
+  const placeholder = button.closest('.youtube-placeholder');
+  const iframe = document.createElement('iframe');
+  iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+  iframe.width = '350';
+  iframe.height = '250';
+  iframe.frameBorder = '0';
+  iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen = true;
+
+  // Replace the placeholder with the iframe
+  placeholder.innerHTML = '';
+  placeholder.appendChild(iframe);
+}
+</script>
+
+</script>
 </body>
 
 </html>

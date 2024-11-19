@@ -1,10 +1,10 @@
 <footer class="footer bg-cover" data-background="images/bg/5.webp" data-overlay-dark="98">
 <div class="footer-main-area">
 <div class="footer-section-obj1">
-<img src="images/objects/footer-obj1.png" alt="" />
+<img src="images/objects/footer-obj1.webp" alt="" />
 </div>
 <div class="footer-section-obj2">
-<img src="images/objects/footer-obj2.png" alt="" />
+<img src="images/objects/footer-obj1.webp" alt="" />
 </div>
 <div class="container">
 <div class="row pdb-65">

@@ -51,7 +51,7 @@ At Rajula Dist Amreli State Gujarat
 <div class="main-menu-inner">
 <div class="main-menu-logo">
 <a href="index.php">
-<img src="images/logo.png" width="165" height="72" alt="logo" />
+<img src="images/logo.webp" width="165" height="72" alt="logo" />
 </a>
 </div>
 <ul class="main-nav-menu">
