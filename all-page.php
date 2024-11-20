@@ -6,7 +6,7 @@
 <meta name="author" content="Interar" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>All Page</title>
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" />
@@ -42,7 +42,7 @@
 </section>
 <!-- Page Title End -->
 <!-- About Section Start -->
-<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.png" data-overlay-light="4">
+<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.webp" data-overlay-light="4">
 <div class="container">
 <div class="row">
 

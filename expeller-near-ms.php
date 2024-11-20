@@ -12,7 +12,7 @@
     <meta name="description" content="Explore durable and efficient oil expellers near Ms, provided by Badami Industries. Get the best expellers for your oil extraction needs." />
     <meta name="keywords" content="Expeller near Ms, oil expeller, oil extraction, industrial expeller, Badami Industries" />
 
-    <link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />

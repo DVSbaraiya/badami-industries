@@ -6,7 +6,7 @@
 <meta name="author" content="Interar" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>About Us</title>
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" />
@@ -42,7 +42,7 @@
 </section>
 <!-- Page Title End -->
 <!-- About Section Start -->
-<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.png" data-overlay-light="4">
+<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.webp" data-overlay-light="4">
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -70,13 +70,13 @@
 <!-- Funfact Section Start -->
 <section class="funfact-section pdt-50 pdb-25 pdt-sm-80 pdb-sm-65">
 <div class="funfact-section-obj1">
-<img src="images/objects/funfact-obj1.png" alt="" />
+<img src="images/objects/funfact-obj1.webp" alt="" />
 </div>
 <div class="funfact-section-obj2">
-<img src="images/objects/funfact-obj2.png" alt="" />
+<img src="images/objects/funfact-obj2.webp" alt="" />
 </div>
 <div class="funfact-section-obj3">
-<img src="images/objects/funfact-obj3.png" alt="" />
+<img src="images/objects/funfact-obj3.webp" alt="" />
 </div>
 <div class="section-content">
 <div class="container">

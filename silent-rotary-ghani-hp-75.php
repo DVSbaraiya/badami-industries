@@ -15,7 +15,7 @@
     <!-- Other head elements like CSS and scripts can be included here -->
 
 
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" />

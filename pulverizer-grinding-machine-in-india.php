@@ -12,7 +12,7 @@
     <meta name="description" content="Explore high-performance Pulverizer Grinding Machines in India. Badami Industries offers durable and efficient grinding solutions for various applications." />
     <meta name="keywords" content="Pulverizer grinding machine, grinding machine in India, pulverizer, industrial grinding, Badami Industries" />
 
-    <link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />

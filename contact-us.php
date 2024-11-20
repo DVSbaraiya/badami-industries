@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
  
     <title>Contact Us</title>
-    <link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+    <link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -43,7 +43,7 @@
     </section>
     <!-- Page Title End -->
     <!-- Contact Section Start -->
-    <section class="contact-section pdt-110 pdb-110" data-background="images/bg/abs-bg7.png" data-overlay-light="2">
+    <section class="contact-section pdt-110 pdb-110" data-background="images/bg/abs-bg7.webp" data-overlay-light="2">
       <div class="container">
         <div class="row mrb-80">
           <div class="col-md-12 col-lg-12 col-xl-4">

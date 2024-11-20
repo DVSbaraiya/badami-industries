@@ -8,7 +8,7 @@
 <meta name="google-site-verification" content="xoX5Y_AL22dAxUwlItnxbvpWjyqcS7nBK9J-CkFG9EA" />
 
 <title>Badami Industries || Home</title>
-<link href="images/favicon.webp" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 
 <!-- Main Stylesheet -->
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async=""></script>
@@ -69,7 +69,7 @@
 </section>
 <!-- Home Slider End -->
 <!-- Service Section Area Start -->
-<section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="images/bg/abs-bg8.png">
+<section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="images/bg/abs-bg8.webp">
 <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 <div class="container">
 <div class="row justify-content-center">
@@ -170,7 +170,7 @@
 </div>
 </section>
 <!-- Service Section Area End -->
-<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.png" data-overlay-light="4">
+<section class="about-section pdt-110 pdb-105 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg3.webp" data-overlay-light="4">
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-lg-8 col-xl-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -198,13 +198,13 @@
 <!-- Funfact Section Start -->
 <section class="funfact-section pdt-50 pdb-25 pdt-sm-80 pdb-sm-65">
 <div class="funfact-section-obj1">
-<img src="images/objects/funfact-obj1.png" alt="" />
+<img src="images/objects/funfact-obj1.webp" alt="" />
 </div>
 <div class="funfact-section-obj2">
-<img src="images/objects/funfact-obj2.png" alt="" />
+<img src="images/objects/funfact-obj2.webp" alt="" />
 </div>
 <div class="funfact-section-obj3">
-<img src="images/objects/funfact-obj3.png" alt="" />
+<img src="images/objects/funfact-obj3.webp" alt="" />
 </div>
 <div class="section-content">
 <div class="container">
@@ -259,7 +259,7 @@
 </section>
 <!-- Funfact Section End -->
 <!-- Offer Section Start -->
-<section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="images/bg/abs-bg4.png" data-overlay-dark="4">
+<section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-110 pdb-85" data-background="images/bg/abs-bg4.webp" data-overlay-dark="4">
 <div class="section-content">
 <div class="container">
 <div class="row">
@@ -332,7 +332,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 
 <!-- Get a Quote Section End -->
 <!-- Project Section Start -->
-<section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-105" data-background="images/bg/abs-bg3.png" data-overlay-dark="4">
+<section class="bg-secondary-color bg-no-repeat bg-cover bg-pos-cb pdt-105" data-background="images/bg/abs-bg3.webp" data-overlay-dark="4">
 <div class="section-title mrb-60 mrb-md-15 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 <div class="container">
 <div class="row align-items-end">
@@ -421,7 +421,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </section>
 <!-- Project Section End -->
 <!-- Testimonials Section Start -->
-<section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg7.png">
+<section class="testimonial-style2-section pdt-105 pdb-110 bg-no-repeat bg-cover bg-pos-cb" data-background="images/bg/abs-bg7.webp">
 <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 <div class="container">
 <div class="row justify-content-center">
@@ -472,7 +472,7 @@ Our Company <span class="text-primary-color">Make You<br /> </span>Feel More Con
 </section>
 <!-- Testimonials Section End -->
 
-<section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="images/bg/abs-bg8.png">
+<section class="service-section-style2 bg-no-repeat bg-cover bg-pos-cb pdt-105 pdb-110 pdb-lg-105" data-background="images/bg/abs-bg8.webp">
 <div class="section-title text-center wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
 <div class="container">
 <div class="row justify-content-center">

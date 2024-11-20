@@ -14,7 +14,7 @@
 
 <meta name="keywords" content="10 x 16 pulveriser, grinding machine, Rajasthan, manufacturer, industrial grinder, Badami Industries" />
 
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" />

@@ -14,7 +14,7 @@
 
 <meta name="keywords" content="15 HP expeller, oil extraction machine, Telangana, manufacturer, industrial press, Badami Industries" />
 
-<link href="images/favicon.png" rel="shortcut icon" type="image/png" />
+<link href="images/favicon.webp" rel="shortcut icon" type="image/webp" />
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/responsive.css" />
