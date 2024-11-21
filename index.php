@@ -13,6 +13,7 @@
 <!-- Main Stylesheet -->
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" async=""></script>
 <link rel="preload" href="images/bg/15.webp" as="image" type="image/webp" />
+<link rel="preload" href="images/hero-mobile.webp" as="image" type="image/webp" />
 <link rel="preload" href="css/style.css" as="style" />
 
 <link rel="stylesheet" href="css/style.css" />
@@ -39,33 +40,38 @@
 <?php include "pages/layout/floatingWhatsappBtn.php" ?>
 <!-- Header Area End -->
 <!-- Home Slider Start -->
-<section class="home_banner_02">
-<div class="home-carousel owl-theme owl-carousel">
-<div class="slide-item">
-<div class="image-layer" style="background-image: url('images/bg/15.webp');"></div>
+<section class="home_banner_02 d-none d-md-block">
+  <div class="home-carousel owl-theme owl-carousel">
+  <div class="slide-item">
+  <div class="image-layer" style="background-image: url('images/bg/15.webp');"></div>
 
-<div class="auto-container">
-<div class="row clearfix">
-<div class="col-xl-7 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<h1 class="home-carousel-title"> <span class="text-obj1">Badami Industries</span></h1>
-<p class="home-carousel-text">We direct all our activities to cater the expectations of customers by providing them excellent quality products as per their gratification.</p>
-<div class="btn-box">
-<a href="contact-us.php" class="animate-btn-style3">Get Quote</a>
-</div>
-</div>
-</div>
-<div class="col-xl-4 col-lg-12 col-md-12 content-column">
-<div class="content-box">
-<img class="img-full lazy" src="images/service/img-1.webp" alt="" />
+  <div class="auto-container">
+  <div class="row clearfix">
+  <div class="col-xl-7 col-lg-12 col-md-12 content-column">
+  <div class="content-box">
+  <h1 class="home-carousel-title"> <span class="text-obj1">Badami Industries</span></h1>
+  <p class="home-carousel-text">We direct all our activities to cater the expectations of customers by providing them excellent quality products as per their gratification.</p>
+  <div class="btn-box">
+  <a href="contact-us.php" class="animate-btn-style3">Get Quote</a>
+  </div>
+  </div>
+  </div>
+  <div class="col-xl-4 col-lg-12 col-md-12 content-column">
+  <div class="content-box">
+  <img class="img-full lazy" src="images/service/img-1.webp" alt="" />
 
-</div>
-</div>
+  </div>
+  </div>
 
-</div>
-</div>
-</div>
-</div>
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
+<section class="home_banner_02 d-block d-md-none">
+    <div>
+      <a href="contact-us.php"><img src="images/hero-mobile.webp" alt="hero image"></a>
+    </div>
 </section>
 <!-- Home Slider End -->
 <!-- Service Section Area Start -->
